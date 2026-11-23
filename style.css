@@ -172,3 +172,45 @@ section:not(#home):hover {
         gap: 15px;
     }
 }
+
+/* ABOUT ME SECTION */
+
+.about-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.about-content p {
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 18px;
+    color: #cbd5e1;
+}
+
+/* TECHNOLOGY INTEREST TAGS */
+
+.about-interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.about-interests span {
+    background: #0b1120;
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+/* TAG HOVER EFFECT */
+
+.about-interests span:hover {
+    background: #38bdf8;
+    color: #0b1120;
+    transform: translateY(-4px);
+}
