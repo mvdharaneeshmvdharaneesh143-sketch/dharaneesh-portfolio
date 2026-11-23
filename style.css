@@ -249,3 +249,38 @@ section:not(#home):hover {
     border-color: #38bdf8;
     box-shadow: 0 8px 25px rgba(56, 189, 248, 0.12);
 }
+
+/* CONTACT SECTION */
+
+.contact-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-content p {
+    color: #cbd5e1;
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+/* CONTACT BUTTON */
+
+.contact-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 13px 28px;
+    background: #38bdf8;
+    color: #0b1120;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+/* BUTTON HOVER EFFECT */
+
+.contact-button:hover {
+    background: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(56, 189, 248, 0.2);
+}
